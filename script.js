@@ -25,40 +25,5 @@
 //   },
 // ]
 
-const addBtn = document.querySelector('.add-btn')
-const form = document.querySelector('form')
 
-function transferData() {
-  const data = getFormData()
-  const row = buildRow(data)
-
-  clearForm()
-  apendRow(row)
-}
-
-
-function getFormData() {
-  return {
-    date: form.date.value,
-    name: form.name.value,
-    price: form.price.value,
-    quantity: form.quantity.value,
-  }
-}
-
-function buildRow(data) {
-
-}
-
-function clearForm() {
-
-}
-
-function apendRow(row) {
-
-}
-
-
-
-addBtn.addEventListener('click', transferData)
 
